@@ -8,7 +8,11 @@ def map(array)
   new
 end
 
-def reduce(array)
-  new = []
+def reduce(array, option=nil)
+  total = 0
   i = 0
+  while
+    total += yield(array[i])
+  i += 1
+  end
 end
