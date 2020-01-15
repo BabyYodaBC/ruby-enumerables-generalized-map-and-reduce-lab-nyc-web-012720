@@ -7,3 +7,8 @@ def map(array)
   end
   new
 end
+
+def reduce(array)
+  new = []
+  i = 0
+end
